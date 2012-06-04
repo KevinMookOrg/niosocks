@@ -3,7 +3,7 @@ package org.ineto.niosocks;
 import java.net.InetSocketAddress;
 import java.net.ProtocolException;
 
-import io.netty.buffer.ChannelBuffer;
+import org.jboss.netty.buffer.ChannelBuffer;
 
 public interface SocksProtocol {
 

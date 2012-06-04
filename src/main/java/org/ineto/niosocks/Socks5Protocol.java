@@ -1,6 +1,6 @@
 package org.ineto.niosocks;
 
-import io.netty.buffer.ChannelBuffer;
+import org.jboss.netty.buffer.ChannelBuffer;
 
 import java.net.InetAddress;
 import java.net.InetSocketAddress;

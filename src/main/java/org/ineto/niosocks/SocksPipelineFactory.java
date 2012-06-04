@@ -2,12 +2,12 @@ package org.ineto.niosocks;
 
 import java.util.Properties;
 
-import io.netty.channel.ChannelPipeline;
-import io.netty.channel.ChannelPipelineFactory;
-import io.netty.channel.Channels;
-import io.netty.channel.socket.ClientSocketChannelFactory;
-import io.netty.handler.execution.ExecutionHandler;
-import io.netty.handler.execution.OrderedMemoryAwareThreadPoolExecutor;
+import org.jboss.netty.channel.ChannelPipeline;
+import org.jboss.netty.channel.ChannelPipelineFactory;
+import org.jboss.netty.channel.Channels;
+import org.jboss.netty.channel.socket.ClientSocketChannelFactory;
+import org.jboss.netty.handler.execution.ExecutionHandler;
+import org.jboss.netty.handler.execution.OrderedMemoryAwareThreadPoolExecutor;
 
 public class SocksPipelineFactory implements ChannelPipelineFactory {
 
